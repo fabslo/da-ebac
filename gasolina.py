@@ -7,9 +7,9 @@ sns.set(style='whitegrid')
 
 sns.lineplot(x='dia', y='venda', data=dados)
 
-plt.ylabel('Venda')
+plt.ylabel('Preço')
 plt.xlabel('Dia')
-plt.title('Variação do Preço da Gasolina ao Longo Dos Dias')
+plt.title('Variação do Preço ao Longo Dos Dias \n Teste para mostrar uma diferença no branch')
 plt.savefig('gasolina.png')
 
 plt.show()
